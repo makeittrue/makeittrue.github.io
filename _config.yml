@@ -58,15 +58,16 @@ kramdown:
 # 评论系统
 # Disqus（https://disqus.com/）
 # disqus_username: qiubaiying
+# 这个被墙了，放弃
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 48192c8c7b3137ced655                            #生成的clientID
+  clientSecret: 78c3e9c9b56f593b1417c13428a9125877edbf49    #生成的clientSecret
+  repo: makeittrue.github.io   #仓库名称
+  owner: makeittrue    #github用户名
+  admin: makeittrue
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
