@@ -26,8 +26,8 @@ tags:
 ### 连接数据库
 与连接MySQL相同，选择MongoDB数据库进行连接即可如果端口更改过那就记得自己修改一下,如果设置了密码的情况下需要将验证改为password。
 
-![img](../img/navicat-mongodb.png)
-![img](../img/navicat-mongodb_connection.png)
+![img](https://github.com/makeittrue/makeittrue.github.io/blob/master/img/navicat-mongodb.png?raw=true)
+![img](https://github.com/makeittrue/makeittrue.github.io/blob/master/img/navicat-mongodb_connection.png?raw=true)
 
 
 ### 导入json文件数据
@@ -56,7 +56,7 @@ db.col.find().pretty() # col是要查询的集合名称
 ```
 将col改为DEPARTMENT再次运行查询，结果如下：
 
-![img](../img/mongodb-find-result.png)
+![img](https://github.com/makeittrue/makeittrue.github.io/blob/master/img/mongodb-find-result.png?raw=true)
 
 
 ```
@@ -80,4 +80,4 @@ db.PROJECT.aggregate([
 
 聚合查询，可以连接两个表进行联合查询，结果如下：
 
-![img](../img/mongodb-aggregate.png)
+![img](https://github.com/makeittrue/makeittrue.github.io/blob/master/img/mongodb-aggregate.png?raw=true)
